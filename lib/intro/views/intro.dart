@@ -32,7 +32,7 @@ class IntroPage extends StatelessWidget {
             child: FractionallySizedBox(
               widthFactor: 1,
               child: Lottie.asset(
-                'animations/pakistan.json',
+                'assets/animations/pakistan.json',
                 fit: BoxFit.contain,
                 alignment: Alignment.bottomCenter,
               ),

@@ -23,13 +23,11 @@ class ScenarioChoice extends Equatable {
     this.trustChange = 0,
     this.cultureChange = 0,
     this.businessChange = 0,
-    this.imageUrl,
     this.nextScenarioId,
     this.condition,
   });
   final String label;
   final String detail;
-  final String? imageUrl;
   final int trustChange;
   final int cultureChange;
   final int businessChange;
@@ -43,7 +41,6 @@ class ScenarioChoice extends Equatable {
         trustChange,
         cultureChange,
         businessChange,
-        imageUrl,
         nextScenarioId,
         condition,
       ];

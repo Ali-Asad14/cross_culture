@@ -68,14 +68,17 @@ class SummaryPage extends StatelessWidget {
             Card(
               elevation: 4,
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(16)),
+                borderRadius: BorderRadius.circular(16),
+              ),
               child: Padding(
                 padding:
                     const EdgeInsets.symmetric(horizontal: 32, vertical: 20),
                 child: Column(
                   children: [
-                    Text('Your Final Score',
-                        style: theme.textTheme.titleMedium),
+                    Text(
+                      'Your Final Score',
+                      style: theme.textTheme.titleMedium,
+                    ),
                     const SizedBox(height: 16),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -110,7 +113,7 @@ class SummaryPage extends StatelessWidget {
                     const EdgeInsets.symmetric(horizontal: 32, vertical: 14),
                 textStyle: const TextStyle(fontSize: 16),
               ),
-            )
+            ),
           ],
         ),
       ),
