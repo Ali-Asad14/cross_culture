@@ -14,7 +14,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   go_router: ^15.1.2
-  google_fonts: ^6.2.1
+  google_fonts: ^6.3.1
   intl:
   collection: ^1.19.1
   dartz: ^0.10.1
